@@ -1,3 +1,3 @@
-module src/github.com/rostslo/firstapp
+module src/github.com/rostslo
 
 go 1.20

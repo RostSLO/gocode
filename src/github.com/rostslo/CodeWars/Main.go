@@ -1,6 +1,23 @@
 package main
 
-import "fmt"
+import "github.com/rostslo/CodeWars/calc"
+
+func main() {
+
+	ad := calc.Addition{1, 9}
+	calc.executeOperation(&ad)
+
+}
+
+/*
+func main() {
+
+	res := Multiple3And5(10)
+
+	fmt.Println(res)
+	fmt.Println("test")
+
+}
 
 func Multiple3And5(number int) int {
 	var sum int = 0
@@ -20,12 +37,4 @@ func Multiple3And5(number int) int {
 	return sum
 
 }
-
-func main() {
-
-	res := Multiple3And5(10)
-
-	fmt.Println(res)
-	fmt.Println("test")
-
-}
+*/
