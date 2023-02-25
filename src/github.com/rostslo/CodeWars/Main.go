@@ -1,6 +1,6 @@
 package main
 
-import "github.com/rostslo/CodeWars/calc"
+import "github.com/rostslo/gocode/src/github.com/rostslo/CodeWars/calc"
 
 func main() {
 
